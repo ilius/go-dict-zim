@@ -7,8 +7,8 @@ import (
 	"path"
 	"strconv"
 
-	zim "github.com/akhenakh/gozim"
 	"github.com/blevesearch/bleve"
+	zim "github.com/ilius/go-dict-zim"
 )
 
 const (

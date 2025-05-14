@@ -11,9 +11,9 @@ import (
 	"runtime/pprof"
 	"strconv"
 
-	zim "github.com/akhenakh/gozim"
 	"github.com/blevesearch/bleve"
 	lru "github.com/hashicorp/golang-lru"
+	zim "github.com/ilius/go-dict-zim"
 
 	_ "github.com/blevesearch/bleve/analysis/lang/ar"
 	_ "github.com/blevesearch/bleve/analysis/lang/cjk"

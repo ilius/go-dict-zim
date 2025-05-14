@@ -1,4 +1,4 @@
-module github.com/akhenakh/gozim
+module github.com/ilius/go-dict-zim
 
 go 1.17
 

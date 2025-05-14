@@ -7,10 +7,10 @@ import (
 	"log"
 
 	"github.com/PuerkitoBio/goquery"
-	zim "github.com/akhenakh/gozim"
 	"github.com/blevesearch/bleve"
 	_ "github.com/blevesearch/bleve/analysis/lang/en"
 	_ "github.com/blevesearch/bleve/analysis/lang/fr"
+	zim "github.com/ilius/go-dict-zim"
 
 	_ "github.com/blevesearch/bleve/index/store/goleveldb"
 )

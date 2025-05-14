@@ -1,5 +1,5 @@
-[![Build status](https://github.com/akhenakh/gozim/actions/workflows/build.yml/badge.svg)](https://github.com/akhenakh/gozim/actions/workflows/build.yml)
-[![Lint status](https://github.com/akhenakh/gozim/actions/workflows/lint.yml/badge.svg)](https://github.com/akhenakh/gozim/actions/workflows/lint.yml)
+[![Build status](https://github.com/ilius/go-dict-zim/actions/workflows/build.yml/badge.svg)](https://github.com/ilius/go-dict-zim/actions/workflows/build.yml)
+[![Lint status](https://github.com/ilius/go-dict-zim/actions/workflows/lint.yml/badge.svg)](https://github.com/ilius/go-dict-zim/actions/workflows/lint.yml)
 
 gozim
 =====
@@ -38,10 +38,10 @@ go install github.com/GeertJohan/go.rice/rice
 
 Get and build the gozim executables
 ```bash
-go get github.com/akhenakh/gozim/...
-cd $GOPATH/src/github.com/akhenakh/gozim
-go build github.com/akhenakh/gozim/cmd/gozimhttpd
-go build github.com/akhenakh/gozim/cmd/gozimindex
+go get github.com/ilius/go-dict-zim/...
+cd $GOPATH/src/github.com/ilius/go-dict-zim
+go build github.com/ilius/go-dict-zim/cmd/gozimhttpd
+go build github.com/ilius/go-dict-zim/cmd/gozimindex
 ```
 
 After build gozimhttpd command run to embed the files:
